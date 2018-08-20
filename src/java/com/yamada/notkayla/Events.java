@@ -15,7 +15,7 @@ public class Events extends ListenerAdapter {
         // elf sagiri megumi threesome when
         if (content.startsWith("$!")){
             String command = content.substring(prefix.length());
-            if (Kayla.registry.has(command)) Kayla.registry.get(command).run(Kayla.bot,event);
+            if (Kayla.registry.has(command)) Kayla.registry.get(command).run(Kayla.bot, event);
         }
     }
 }
